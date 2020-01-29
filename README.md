@@ -16,7 +16,7 @@ This installation was tested for Ubuntu 16.04 LTS. For other operating systems, 
 Furthermore, the following two libraries were used:
 
 * [OpenCV 2.4.13](https://opencv.org/release/opencv-2-4-13/)
-* [Boost](https://www.boost.org/) C++ libraries (tested with 1.58.0.1)
+* [Boost](https://www.boost.org/) (tested with 1.58.0.1)
 
 Additional libraries might be required, install on request.
 
