@@ -43,7 +43,6 @@ $ make
 ![Diparity image](https://i.imgur.com/pxZun4s.png)
 ![Pointcloud](https://i.imgur.com/J49u0vP.png)
 
-
 ## Version
 
 * 22. June 2017: Version 1.0, [Documentation](https://gitlab.com/jdiep/high-performance-and-tunable-stereo-reconstruction/tree/master/paper)
