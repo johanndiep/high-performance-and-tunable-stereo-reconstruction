@@ -31,9 +31,23 @@ These two datasets can be toggled by changing the variable `int DATASET` in the 
 
 ## Compiling and Running
 
-The code was already build on Ubuntu 16.04 using cmake. To run the pipeline, use the executable located at src/main.out.
+The code was already build on Ubuntu 16.04 using cmake. To run the pipeline, use the executable located at src/main.out. To build the code again, navigate into the src folder and use:
 
-To build the code again, navigate into the src folder and use:
-`cmake .`
-and then
-`make`
+```console
+$ cmake .
+$ make
+```
+
+## Version
+
+* 22. June 2017: Version 1.0, [Documentation](https://gitlab.com/jdiep/high-performance-and-tunable-stereo-reconstruction/tree/master/paper)
+
+## Credential
+
+The core of this work is based on the publication ["High-Performance and Tunable Stereo Reconstruction"](https://arxiv.org/pdf/1511.00758.pdf) by Sudeep Pillai, Srikumar Ramalingam and John J. Leonard.
+
+## Authors
+
+* Johann Diep (MSc Student Mechanical Engineering, ETH Zurich, jdiep@student.ethz.ch)
+* Milan Schilling (MSc Student Robotics, Systems and Control, ETH Zurich, milansc@student.ethz.ch)
+* Ian Stähli (MSc Student Robotics, Systems and Control, ETH Zurich, staehlii@student.ethz.ch)
