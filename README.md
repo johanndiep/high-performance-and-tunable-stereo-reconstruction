@@ -20,16 +20,18 @@ Furthermore, the following two libraries were used:
 
 Additional libraries might be required, install on request.
 
-### Dataset
+## Dataset
 
 Two KITTI datasets are used which should be contained in folders as:
-* [Stereo Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) in Hypertun-SR/data/data_stereo_flow
-* [Visual Odometry / SLAM Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) (00 folder) in Hypertun-SR/data/data_odometry_color
 
-These two datasets can be toggled by changing the variable `int DATASET` in the main.cpp.
+* [Stereo Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) in data/data_stereo_flow
+* [Visual Odometry / SLAM Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) (00 folder) in data/data_odometry_color
 
-## Compiling and running
-The code was already build on Ubuntu 16.04 using cmake. To run the pipeline use the executable located at src/main.out.
+These two datasets can be toggled by changing the variable `int DATASET` in the main.cpp file.
+
+## Compiling and Running
+
+The code was already build on Ubuntu 16.04 using cmake. To run the pipeline, use the executable located at src/main.out.
 
 To build the code again, navigate into the src folder and use:
 `cmake .`
