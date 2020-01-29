@@ -1,15 +1,30 @@
-# Hypertun-SR
+# High-Performance and Tunable Stereo Reconstruction
 
-## Requirements
- - OpenCV 2.4.13
- - boost (tested with 1.58.0.1)
+This Gitlab repository contains the code for the "High-Performance and Tunable Stereo Reconstruction" project. It was developed in the context of the lecture "[3D Vision](https://www.cvg.ethz.ch/teaching/3dvision/2017/index.php)" taught by Prof. Andreas Geiger and Dr. Torsten Sattler.
 
-The pipeline also uses the exFAST library, which is included in src/sparsestereo and the Triangle library, which is included in libs/triangulation.
+## Context
 
-### Datasets
+Most mobile robots require fast computation of their immediate surroundings in order to perform fast and maneuverable tasks. Conventional stereo algorithms are not adapted for this kind of applications since they focus on reconstruction quality rather than run-time performance. Therefore, the high-performance and tunable stereo reconstruction method presented by Sudeep Pillai, Srikumar Ramalingam and John J. Leonard was implemented in this project. The algorithm provides the option to adjust the desired reconstruction quality, at the cost of a slower run-time performance. The result is a disparity image for each left and right frame pair.
+
+## Installation
+This installation was tested for Ubuntu 16.04 LTS. For other operating systems, changes or additional packages might be required. Two external libraries are used, which are included in this repository:
+
+* [exFAST](http://www.ra.cs.uni-tuebingen.de/software/sparsestereo/welcome_e.html)
+* [Triangle](https://www.cs.cmu.edu/~quake/triangle.html)
+
+ 
+Furthermore, the following two libraries were used:
+
+* [OpenCV 2.4.13](https://opencv.org/release/opencv-2-4-13/)
+* [Boost](https://www.boost.org/) C++ libraries (tested with 1.58.0.1)
+
+Additional libraries might be required, install on request.
+
+### Dataset
+
 Two KITTI datasets are used which should be contained in folders as:
- - Hypertun-SR/data/data_stereo_flow 		(http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)
- - Hypertun-SR/data/data_odometry_color		(http://www.cvlibs.net/datasets/kitti/eval_odometry.php, only the folder 00)
+* [Stereo Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) in Hypertun-SR/data/data_stereo_flow
+* [Visual Odometry / SLAM Evaluation 2012](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) (00 folder) in Hypertun-SR/data/data_odometry_color
 
 These two datasets can be toggled by changing the variable `int DATASET` in the main.cpp.
 
