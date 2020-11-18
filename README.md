@@ -53,6 +53,6 @@ The core of this work is based on the publication ["High-Performance and Tunable
 
 ## Authors
 
-* Johann Diep (MSc Student Mechanical Engineering, ETH Zurich, jdiep@student.ethz.ch)
+* Johann Diep (MSc Student Mechanical Engineering, ETH Zurich, johanndiep@gmail.com)
 * Milan Schilling (MSc Student Robotics, Systems and Control, ETH Zurich, milansc@student.ethz.ch)
 * Ian Stähli (MSc Student Robotics, Systems and Control, ETH Zurich, staehlii@student.ethz.ch)
